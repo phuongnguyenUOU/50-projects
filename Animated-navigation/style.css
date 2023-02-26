@@ -54,7 +54,13 @@
 
 body {
     font-family: var(--ff-secondary);
-    background: var(--clr-primary-8);
+    background-image: linear-gradient(
+    to bottom,
+    #eafbff 0%,
+    #eafbff 50%,
+    #5290f9 50%,
+    #5290f9 100%
+  );
     color: var(--clr-grey-1);
     line-height: 1.5;
     font-size: 1.1em;
